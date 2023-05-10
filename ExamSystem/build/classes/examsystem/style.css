@@ -1,0 +1,78 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 8, 2023, 4:04:11 AM
+    Author     : User
+*/
+
+.root{
+    -fx-padding: 15px;
+    -fx-background-color: #eee;
+
+    
+}
+
+.button{
+    -fx-background-color: #fff;
+     -fx-border-radius: 10;
+      -fx-border-radius: 10;
+      -fx-text-fill: #16A31C;
+      -fx-effect: dropshadow(three-pass-box, rgba(229, 225, 225, 0.8), 15, 0, 0, 0);
+      -fx-padding: 7px;
+      -fx-font-family: TRON;
+    -fx-font-size: 18px;
+}
+
+.button:hover{
+    -fx-background-color: #16A31C;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+   
+}
+
+
+#headline{
+   
+    
+    -fx-background-image: url("../../../src/res/quiz.jpeg");
+    -fx-background-repeat: no-repeat;   
+    -fx-padding: 10px;
+    
+   -fx-background-size: stretch;
+   -fx-background-position: center center; 
+}
+
+/* #headline-vertical-grid-lines {
+    -fx-stroke: #dedddc; -fx-stroke-width: 2;
+ }
+ #headline-horizontal-grid-lines {
+    -fx-stroke: #dedddc; -fx-stroke-width: 2;
+ } */
+
+#question{
+    -fx-font-family: TRON;
+    -fx-font-size: 20px;
+}
+
+
+ #container{
+    /* -fx-background-color: #fff;
+    -fx-border-radius: 50;
+    -fx-border-color: blue ;
+    -fx-border-width: 5 ; */
+
+    -fx-padding: 40px;
+
+    -fx-background-color: #fff;
+    -fx-background-radius: 50px;
+
+    -fx-border-radius: 50px;
+    -fx-border-width: 2px;
+    -fx-border-color: grey;
+    /* -fx-effect: dropshadow(three-pass-box, rgba(229, 225, 225, 0.8), 10, 0, 0, 0); */
+    /* -fx-effect: dropshadow(three-pass-box, rgba(51, 50, 50, 0.8), 3, 0, 0, 0); */
+   
+    
+}
