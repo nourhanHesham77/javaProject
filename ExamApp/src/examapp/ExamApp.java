@@ -282,6 +282,28 @@ public class ExamApp extends Application {
        // Set additional constraints for the timer text
        GridPane.setValignment(timerDisplay.getTimerText(), javafx.geometry.VPos.TOP);
        timerDisplay.getTimerText().setTextAlignment(TextAlignment.RIGHT);
+       
+       timerDisplay.getCountdownTimeline().setOnFinished(event -> {
+            Platform.runLater(() -> {
+                primaryStage.close();
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.setTitle("Time Out");
+                alert.setHeaderText(null);
+                alert.setContentText("Time Out");
+
+                ButtonType showScoreButton = new ButtonType("Save and submit");
+                alert.getButtonTypes().setAll(showScoreButton);
+                showConfirmationScreen();
+                Optional<ButtonType> result = alert.showAndWait();
+
+                if (result.isPresent() && result.get() == showScoreButton) {
+                    showConfirmationScreen();
+                } else{
+                    answers.clear();
+                    showConfirmationScreen();
+                }
+            });
+        });
 
        // Add the timer menu bar to the GridPane
        Menu_Bar timerMenuBar = new Menu_Bar();
@@ -320,6 +342,29 @@ public class ExamApp extends Application {
        timerMenuBar.getMenuBar().getMenus().get(0).getItems().get(0).setOnAction(event1);
        timerMenuBar.getMenuBar().getMenus().get(0).getItems().get(1).setOnAction(event2);
        timerMenuBar.getMenuBar().getMenus().get(0).getItems().get(2).setOnAction(event3);
+       
+       EventHandler<WindowEvent> closeRequestHandler = (WindowEvent event4) -> {
+            event4.consume();
+
+            // create a confirmation dialog
+            Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+            alert.setTitle("Close the program");
+            alert.setHeaderText(null);
+            alert.setContentText("Are you sure you want to Exit?");
+
+            // add "OK" and "Cancel" buttons
+            ButtonType okButton = new ButtonType("OK", ButtonBar.ButtonData.OK_DONE);
+            ButtonType cancelButton = new ButtonType("Cancel", ButtonBar.ButtonData.CANCEL_CLOSE);
+            alert.getButtonTypes().setAll(okButton, cancelButton);
+
+            // show the dialog and wait for the user's response
+            Optional<ButtonType> result = alert.showAndWait();
+            if (result.isPresent() && result.get() == okButton) {
+                Platform.exit();
+            }
+    };
+        
+       primaryStage.setOnCloseRequest(closeRequestHandler);
 
        // Add the toggle group for the choices
        ToggleGroup toggleGroup = new ToggleGroup();
