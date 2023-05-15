@@ -283,6 +283,10 @@ public class ExamApp extends Application {
        GridPane.setValignment(timerDisplay.getTimerText(), javafx.geometry.VPos.TOP);
        timerDisplay.getTimerText().setTextAlignment(TextAlignment.RIGHT);
        
+       
+       // if the timer is finished it shows an alert message to the user telling him that the time is finished
+       // and opens to him conformation screen if he clicked save it will saves his answers
+       // if not and closed the alert it won't save his answers 
        timerDisplay.getCountdownTimeline().setOnFinished(event -> {
             Platform.runLater(() -> {
                 primaryStage.close();
@@ -328,7 +332,8 @@ public class ExamApp extends Application {
            answers.clear();
            Collections.shuffle(questions);
            timerDisplay.getCountdownTimeline().stop();
-           timerDisplay = new time();
+           // making the time null so that it doesn't start untill he opens question screen
+           timerDisplay = null;
            choseExam();
        };
 
@@ -548,12 +553,11 @@ public class ExamApp extends Application {
         for (int i = 0; i < questions.size(); i++) {
             Question question = questions.get(i);
             String selectedAnswer = answers.get(question.getText());
-            System.out.println(answers.get(question.getText()));
-            System.out.println(answers.get(question.getCorrectAnswer()));
             // updating the score if the user's answer is equal to the correct answer
             if (selectedAnswer != null && selectedAnswer.equals(question.getCorrectAnswer())) {
                 score++;
             }
+            System.out.println(score);
             Label questionLabel = new Label(question.getText());
             GridPane.setRowIndex(questionLabel, i + 1 + x);
             GridPane.setColumnIndex(questionLabel, 0);
