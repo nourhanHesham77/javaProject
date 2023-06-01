@@ -96,6 +96,6 @@ In this project there are four sub modules:
 ## 🔗 Links
 [![linkedin]()
 
-[![linkedin](https://www.linkedin.com/in/ahmed-maher-tohamy)
+[![linkedin](https://www.linkedin.com/in/ahmed-maher-tohamy/)
 
 
