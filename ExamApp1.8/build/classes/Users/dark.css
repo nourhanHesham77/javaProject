@@ -1,0 +1,346 @@
+.root {
+    -fx-padding: 30px 20px 30px 20px;
+    -fx-background-color: linear-gradient(#1e2634, #1e365d, #143778);
+}
+
+.label {
+    -fx-text-fill: #ffffff;
+}
+
+.button {
+    -fx-background-color: #0297cf;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #046c9c;
+    -fx-cursor: hand;
+}
+
+
+.toggle-group {
+    -fx-padding: 10px;
+    -fx-background-color: #444444;
+}
+
+.toggle-button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: #ffffff;
+}
+
+.radio-button {
+    -fx-background-color: #f2f2f2;
+    -fx-text-fill: #000000;
+    -fx-border-color: #E1D9D1;
+    -fx-padding: 6px;
+    -fx-min-width: 200;
+    -fx-pref-width: 200;
+    -fx-max-width: 200;
+    -fx-font-size: 20px;
+    -fx-font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.radio-button .radio {
+    -fx-background-color: #fff;
+    -fx-border-color: #1e2634;
+    -fx-background-size: 50%;
+    -fx-border-width: 1px;
+    -fx-border-radius: 50%;
+}
+
+
+.radio-button:hover {
+    -fx-background-color: #2e3849;
+    -fx-cursor: hand;
+}
+
+.radio-button:selected {
+    -fx-background-color: #3d4c66;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: rgb(231, 231, 157);
+}
+
+.scroll-pane {
+    -fx-background-color: #445778;
+}
+
+.scroll-bar:horizontal,
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.increment-button,
+.decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #1e2634;
+    -fx-background-radius: 2em;
+}
+
+/*********************************************DEEP STYLING*****************************************/
+
+.container {
+    -fx-background-color: #515180;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-alignment: top-center;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 25, 0, 0, 10);
+
+}
+
+/* Apply styles to the text field */
+.text-field {
+    -fx-border-color: #999;
+    -fx-border-radius: 15px;
+    -fx-prompt-text-fill: #bbb;
+    -fx-text-inner-color: #666;
+    -fx-font-size: 16px;
+    -fx-padding: 10px;
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0, 0, 0);
+    -fx-pref-width: 300;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 25, 0, 0, 10);
+}
+
+/* Apply styles to the text field when it's focused */
+.text-field:focused {
+    -fx-border-color: #4d90fe;
+    -fx-border-width: 1px;
+    -fx-text-inner-color: #000;
+}
+
+
+.headline {
+    -fx-alignment: center;
+}
+
+.login-head {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.line {
+    -fx-background-color: black;
+    -fx-min-height: 1px;
+    -fx-pref-height: 1px;
+    -fx-max-height: 1px;
+    -fx-min-width: 300px;
+    -fx-pref-width: 300px;
+    -fx-max-width: 300px;
+}
+
+.login-btn {
+    -fx-font-size: 16px;
+    -fx-pref-width: 300;
+}
+
+.ch-exam {
+    -fx-alignment: top-center;
+    -fx-text-alignment: center;
+}
+
+
+/** QUESTION VIEW **/
+
+.radio-choice {
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-background-color: #f2f2f2;
+    -fx-text-fill: #000000;
+    -fx-border-color: #E1D9D1;
+    -fx-padding: 6px;
+    -fx-min-width: 300;
+    -fx-pref-width: 300;
+    -fx-max-width: 300;
+    -fx-font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+}
+
+.radio-choice .radio {
+    -fx-background-color: #fff;
+    -fx-border-color: #1e2634;
+    -fx-border-width: 2px;
+    /* -fx-border-radius: 50%; */
+}
+
+.question-txt {
+    -fx-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #eee;
+}
+
+.quiz-contain {
+    -fx-alignment: top-center;
+    -fx-padding: 5px;
+}
+
+/**CLOSE OR SHOW RESULT**/
+.mood-btn {
+    -fx-padding: 21;
+    -fx-pref-width: 160;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff;
+}
+
+.mood-btn:hover {
+    -fx-text-fill: #fff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 25, 0, 0, 10);
+}
+
+/**CHOOSE EXAM**/
+
+.ch-exam {
+    -fx-alignment: top-center;
+    -fx-text-alignment: center;
+}
+
+
+.otp-btn {
+    -fx-background-color: #f2f2f2;
+    -fx-text-fill: #000000;
+    -fx-border-color: #E1D9D1;
+    -fx-padding: 6px;
+    -fx-min-width: 200;
+    -fx-pref-width: 200;
+    -fx-max-width: 200;
+    -fx-font-size: 20px;
+    -fx-font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.otp-btn:selected {
+    -fx-background-color: #a570fa;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: rgb(231, 231, 157);
+}
+
+
+.myDialog>*.button-bar>*.container {
+    -fx-background-color: #eee;
+}
+
+.myDialog>*.label.content {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.myDialog:header *.header-panel *.label {
+    -fx-font-size: 18px;
+    -fx-font-style: italic;
+    -fx-text-fill: black !important;
+}
+
+
+/**SCORE**/
+.score-contain {
+    -fx-alignment: top-right;
+}
+
+.score {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.result-contain {
+    -fx-pref-width: 400px;
+    -fx-padding: 40px;
+    -fx-background-color: #fff;
+    -fx-border-width: 2px;
+    -fx-border-color: #445778;
+
+
+}
+
+.container-res {
+    -fx-pref-width: 400px;
+    -fx-padding: 40px;
+    -fx-background-color: #fff;
+    -fx-border-width: 2px;
+    -fx-border-color: #445778;
+}
+
+.result-pg {
+    -fx-background-color: #eee;
+    -fx-background-color: linear-gradient(#1e2634, #1e365d, #143778);
+}
+
+
+
+.question-scr {
+    -fx-font-size: 19px;
+    -fx-text-fill: black;
+}
+
+
+.correct-ans {
+    -fx-font-size: 15px;
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+}
+
+.titleLabel {
+    -fx-font-size: 20px;
+    -fx-text-fill: #1e2634;
+    -fx-font-weight: bold;
+}
+
+.rank-txt {
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-text-fill: #fff;
+}
+
+.back-img {
+    -fx-background-image: url("img/darkprize.jpeg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: stretch;
+    -fx-background-position: top center;
+    -fx-pref-width: 500px;
+}
+
+.grid-pane {
+    -fx-vgap: 10;
+}
+
+.grid-pane>* {
+    -fx-pref-height: 50px;
+    -fx-pref-width: 350px;
+    -fx-padding: 3px;
+    -fx-background-color: #273143;
+    -fx-border-color: yellow;
+    -fx-border-width: 1px;
+    -fx-alignment: center;
+    -fx-font-size: 20px;
+}
+
+/**INSTRUCTIONS*/
+.instructions {
+    -fx-font-size: 18px;
+    -fx-background-color: #fff;
+    -fx-padding: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0.1, 0.2), 25, 0, 0, 10);
+}
+
+.instructions:focused {
+    -fx-border-color: transparent;
+}

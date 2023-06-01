@@ -1,0 +1,205 @@
+.root {
+    -fx-padding: 30px 20px 30px 20px;
+    -fx-background-color: linear-gradient(#1e2634, #1e365d, #143778);
+}
+
+.label {
+    -fx-text-fill: #ffffff;
+}
+
+.button {
+    -fx-background-color: #0297cf;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #046c9c;
+    -fx-cursor: hand;
+}
+
+
+#sub-txt {
+    -fx-text-fill: #ffffff;
+
+}
+
+.buttonLayout .button {
+    -fx-padding: 5px;
+    -fx-pref-width: 59px;
+}
+
+.pageLayout {
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+
+}
+
+/**SCROLL*/
+.scroll-pane {
+    -fx-background-color: #445778;
+}
+
+.scroll-bar:horizontal,
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.increment-button,
+.decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #1e2634;
+    -fx-background-radius: 2em;
+}
+
+.scroll-score {
+    -fx-background-color: #515180;
+}
+
+
+/*********************************************DEEP STYLING*****************************************/
+
+.container {
+    -fx-background-color: #515180;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-alignment: top-center;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 25, 0, 0, 10);
+
+}
+
+/* Apply styles to the text field */
+.text-field {
+    -fx-border-color: #999;
+    -fx-border-radius: 15px;
+    -fx-prompt-text-fill: #bbb;
+    -fx-text-inner-color: #666;
+    -fx-font-size: 16px;
+    -fx-padding: 10px;
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0, 0, 0);
+    -fx-pref-width: 300;
+}
+
+.add-txt {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffff;
+    -fx-font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+/* Apply styles to the text field when it's focused */
+.text-field:focused {
+    -fx-border-color: #4d90fe;
+    -fx-border-width: 1px;
+    -fx-text-inner-color: #000;
+}
+
+
+.headline {
+    -fx-alignment: center;
+}
+
+.login-head {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.line {
+    -fx-background-color: black;
+    -fx-min-height: 1px;
+    -fx-pref-height: 1px;
+    -fx-max-height: 1px;
+    -fx-min-width: 300px;
+    -fx-pref-width: 300px;
+    -fx-max-width: 300px;
+}
+
+.login-btn {
+    -fx-font-size: 16px;
+    -fx-pref-width: 300;
+}
+
+.ch-exam {
+    -fx-alignment: top-center;
+    -fx-text-alignment: center;
+}
+
+
+
+.question-scr {
+    -fx-font-size: 19px;
+    -fx-text-fill: black;
+}
+
+
+.titleLabel {
+    -fx-font-size: 20px;
+    -fx-text-fill: #1e2634;
+    -fx-font-weight: bold;
+}
+
+.ctr-btns {
+    -fx-background-color: #f2f2f2;
+    -fx-text-fill: #000000;
+    -fx-border-color: #E1D9D1;
+    -fx-padding: 6px;
+    -fx-min-width: 200;
+    -fx-pref-width: 200;
+    -fx-max-width: 200;
+    -fx-font-size: 20px;
+    -fx-font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+/**ALERT**/
+
+
+.myDialog>*.button-bar>*.container {
+    -fx-background-color: #eee;
+}
+
+.myDialog>*.label.content {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.myDialog:header *.header-panel *.label {
+    -fx-font-size: 18px;
+    -fx-font-style: italic;
+    -fx-text-fill: black !important;
+}
+
+
+/**SHOW RESULT*/
+.scr-head {
+    -fx-font-size: 24px;
+    -fx-font-style: italic;
+}
+
+.scr-content {
+    -fx-font-size: 16px;
+    -fx-font-style: italic;
+}
+
+.mline {
+    -fx-background-color: yellow;
+    -fx-min-height: 1px;
+    -fx-pref-height: 1px;
+    -fx-max-height: 1px;
+    -fx-min-width: 390px;
+    -fx-pref-width: 390px;
+    -fx-max-width: 390px;
+}
