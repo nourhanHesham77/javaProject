@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"Admin"},{"l":"All Packages","u":"allpackages-index.html"},{"l":"Start"},{"l":"Users"}];updateSearchResults();
