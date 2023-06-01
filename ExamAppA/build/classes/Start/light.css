@@ -1,0 +1,45 @@
+.root {
+    -fx-padding: 30px 20px 30px 20px;
+    -fx-background-color: linear-gradient(#7c52d9, #a176ef, #a9cff3);
+}
+
+
+.label {
+    -fx-text-fill: #000000;
+}
+
+.button {
+    -fx-background-color: #6e2fca;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #a570fa;
+    -fx-cursor: hand;
+}
+
+/**MOOD BUTTONS**/
+
+.mood-btn {
+    -fx-padding: 21;
+    -fx-pref-width: 160;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff;
+}
+
+.mood-btn:hover {
+    -fx-text-fill: #fff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 25, 0, 0, 10);
+}
+
+.text-app {
+    -fx-font-size: 50px;
+    -fx-fill: transparent;
+    -fx-stroke: #1e2634;
+    -fx-stroke-width: 3;
+    -fx-stroke-linecap: round;
+    -fx-stroke-linejoin: round;
+    -fx-animation: handwriting 2s ease-in forwards;
+}
