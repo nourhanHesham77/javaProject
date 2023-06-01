@@ -88,14 +88,15 @@ In this project there are four sub modules:
 
 ## Authors
 [@Nourhan Hesham](https://github.com/nourhanHesham77)
+
 [@Ahmed Maher](https://github.com/AhmedMaherTohmay)
 
 
 
 
 ## 🔗 Links
-[![linkedin]()
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]()
 
-[![linkedin](https://www.linkedin.com/in/ahmed-maher-tohamy/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-maher-tohamy/)
 
 
