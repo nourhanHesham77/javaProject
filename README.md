@@ -40,8 +40,8 @@ Student can see his order
 Student can logout
 
 
-![Screenshot (130)](https://github.com/nourhanHesham77/javaProject/assets/118073597/ee24a10f-2749-4471-b33c-026d92ca04fc)
-![Screenshot (131)](https://github.com/nourhanHesham77/javaProject/assets/118073597/c7024448-dc73-4905-a86b-68c94dc13d73)
+![Screenshot (130)](https://github.com/nourhanHesham77/javaProject/assets/118073597/ee24a10f-2749-4471-b33c-026d92ca04fc) ![Screenshot (131)](https://github.com/nourhanHesham77/javaProject/assets/118073597/c7024448-dc73-4905-a86b-68c94dc13d73)
+
 ![Screenshot (132)](https://github.com/nourhanHesham77/javaProject/assets/118073597/0e710e80-2c25-4227-b915-5e61833f77b8)
 ![Screenshot (133)](https://github.com/nourhanHesham77/javaProject/assets/118073597/b82c2d07-a006-4105-8b79-e5e69ae49836)
 ![Screenshot (134)](https://github.com/nourhanHesham77/javaProject/assets/118073597/0b2533b0-85b5-409e-ad9f-1229b180da47)
