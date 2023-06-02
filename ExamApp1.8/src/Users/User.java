@@ -974,9 +974,8 @@ public class User extends Application {
        
         LogOutButton.setOnAction((ActionEvent event) -> {
             currentQuestionIndex = 0;
+            score = 0;
             answers.clear();
-            Collections.shuffle(questions);
-            timerDisplay.getCountdownTimeline().stop();
             timerDisplay = null;
             showNameScreen();
         });
