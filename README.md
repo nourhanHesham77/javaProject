@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-- [Purpose of the Project](#Purpose of the Project)
-- [Features of the Project](#Features of the Project)
-- [Modules of the Project](#Modules of the Project)
+- [PurposeoftheProject](#Purpose of the Project)
+- [FeaturesoftheProject](#Features of the Project)
+- [ModulesoftheProject](#Modules of the Project)
 - [Screenshots](#Screenshots)
 
 ## Purpose of the Project:
