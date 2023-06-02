@@ -19,7 +19,7 @@ In admin module there are five sub modules:
 - Adding Exams Submodule
 - Editing Exams Submodule
 - Deleting Exams Submodule
-- Shoeing results of the Exams Submodule
+- Showing results of the Exams Submodule
 #### Features of Admin Module:
 - Admin can login.
 - Admin can add Exams.
