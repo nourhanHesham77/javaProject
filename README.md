@@ -6,7 +6,7 @@ It is built with help of JAVAFX and NetBeans.
 ## Features of the Project:
 - Dark and Light mode
 - Customization of test taking options.
-- Configuration of question types with different difficulty levels.
+- Creating multiple exams with no limits.
 - Efficiency to create a question bank.
 - On screen evaluation for instant results.
 ## Modules of the Project:
