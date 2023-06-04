@@ -6,6 +6,8 @@
 - [Features of the Project](#Features-of-the-Project)
 - [Modules of the Project](#Modules-of-the-Project)
 - [Screenshots](#Screenshots)
+- [Requirements](#Requirements)
+- [Installation](#Installation)
 
 ## Purpose of the Project:
 Aim of this project is make easy to conduct exam. Helping teachers to create dynamic exams with no efforts giving them the abilty to modify exams as they like.
@@ -51,8 +53,7 @@ In this project there are two sub modules:
 
 ---
 ## Requirements
-- Java 8 or higher
-- JDK 20
+- Java 8 or JDK 20
 - JAVAFX
 
 ---
@@ -75,6 +76,11 @@ If you are using an IDE, you can typically run the project by right-clicking on 
 
 6. If the project runs successfully, you should see the JavaFX window appear on your screen.
 
+Note: If you are using NetBeans and JDK20 Download the FX20 Library and add the path of it to the vm Options
+```
+EX:
+--module-path "Path to 20 Library" --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics
+```
 Congratulations, you have successfully installed and run the JavaFX project!
 
 ---
