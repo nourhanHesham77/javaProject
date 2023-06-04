@@ -49,6 +49,39 @@ In this project there are two sub modules:
 - Studends can see the their answers and correct answers 
 - Students can logout
 
+---
+## Requirements
+- Java 8 or higher
+- JDK 20
+- JAVAFX
+
+---
+## Installation
+1. Clone the repo  ```git clone https://github.com/nourhanHesham77/javaProject.git```
+
+2. Open the project in your preferred Java IDE (such as IntelliJ , Eclipse or Netbeans (recommended)).
+3. Configure the project to use JavaFX. This can be done by adding the following lines to your build.gradle file:   
+dependencies {
+    implementation 'org.openjfx:javafx-controls:11.0.2'
+}
+```
+Note: If you are using a different build tool such as [Maven](poe://www.poe.com/_api/key_phrase?phrase=Maven&prompt=Tell%20me%20more%20about%20Maven.), the [configuration steps](poe://www.poe.com/_api/key_phrase?phrase=configuration%20steps&prompt=Tell%20me%20more%20about%20configuration%20steps.) will be different.
+```
+
+4. Build the project in your IDE to generate the necessary Java class files.
+
+5. Run the project by executing the main class of the project.
+If you are using an IDE, you can typically run the project by right-clicking on the main class and selecting "Run".
+
+6. If the project runs successfully, you should see the JavaFX window appear on your screen.
+
+Congratulations, you have successfully installed and run the JavaFX project!
+
+---
+
+
+
+
 ## Screenshots
 
 ### Home Page
@@ -140,7 +173,7 @@ In this project there are two sub modules:
 
 
 ## 🔗 Links
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]()
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nourhan-hesham-216863252/)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-maher-tohamy/)
 
