@@ -52,44 +52,88 @@ In this project there are two sub modules:
 ## Screenshots
 
 ### Home Page
-![Screenshot (130)](https://github.com/nourhanHesham77/javaProject/assets/118073597/d15d9365-296e-4758-9cf7-07606d5ca807)
-![Screenshot (135)](https://github.com/nourhanHesham77/javaProject/assets/118073597/7ef99505-3d1a-4a59-92a7-ca18c7f6cc4e)
-![Screenshot (131)](https://github.com/nourhanHesham77/javaProject/assets/118073597/b32de1ce-d8a3-45d5-97a1-f28ef3be233b)
-![Screenshot (132)](https://github.com/nourhanHesham77/javaProject/assets/118073597/6e6623c6-03df-4ea1-a100-e23d66389e14)
+| light                                                                                                                     | Dark                                |
+| -----------------------------------                                                                                       | ----------------------------------- |
+| ![Screenshot (130)](https://github.com/nourhanHesham77/javaProject/assets/118073597/d15d9365-296e-4758-9cf7-07606d5ca807) | ![Screenshot (135)](https://github.com/nourhanHesham77/javaProject/assets/118073597/7ef99505-3d1a-4a59-92a7-ca18c7f6cc4e)|
+
+| light                                                                                                                     | Dark                                |
+| -----------------------------------                                                                                       | ----------------------------------- |
+| ![Screenshot (131)](https://github.com/nourhanHesham77/javaProject/assets/118073597/b32de1ce-d8a3-45d5-97a1-f28ef3be233b) | ![Screenshot (132)](https://github.com/nourhanHesham77/javaProject/assets/118073597/6e6623c6-03df-4ea1-a100-e23d66389e14)|
 
 
 
 
 ### Login Page
-![Screenshot (133)](https://github.com/nourhanHesham77/javaProject/assets/118073597/ef11185c-bb10-47bd-91e6-56f0e0303295)
-![Screenshot (134)](https://github.com/nourhanHesham77/javaProject/assets/118073597/4c3c556e-8081-4415-a9a1-88012720f8f3)
+| light                                                                                                                     | Dark                                |
+| -----------------------------------                                                                                       | ----------------------------------- |
+| ![Screenshot (133)](https://github.com/nourhanHesham77/javaProject/assets/118073597/ef11185c-bb10-47bd-91e6-56f0e0303295) | ![Screenshot (134)](https://github.com/nourhanHesham77/javaProject/assets/118073597/4c3c556e-8081-4415-a9a1-88012720f8f3)|
 
 
-### Courses Page
-![Screenshot (136)](https://github.com/nourhanHesham77/javaProject/assets/118073597/e0d7ef77-5cf5-4008-b1b6-2ff6f36b3816)
-![Screenshot (137)](https://github.com/nourhanHesham77/javaProject/assets/118073597/6d419e61-6a37-461b-a03c-207b12b6d189)
-![Screenshot (138)](https://github.com/nourhanHesham77/javaProject/assets/118073597/1e9993d3-2692-4805-bb99-05e026358c31)
-
+### Admin Modifications Page
+| light                                                                                                                                 | Dark                                |
+| -----------------------------------                                                                                                   | ----------------------------------- |
+| ![Screenshot 2023-06-04 224730](https://github.com/nourhanHesham77/javaProject/assets/118073597/361cdbaa-b32f-48ae-8db7-13b5f6f901bf) | ![Screenshot 2023-06-04 224004](https://github.com/nourhanHesham77/javaProject/assets/118073597/37cb45d4-5fbe-411d-8e7f-5559428f52db)|
 
 ### Admin Add Question Page
-![Screenshot (143)](https://github.com/nourhanHesham77/javaProject/assets/118073597/5da16dd9-08cb-4745-b0e1-48dd898d5c2a)
-![Screenshot (144)](https://github.com/nourhanHesham77/javaProject/assets/118073597/b7b703cd-c5ba-4a40-ae1d-bd39a87140e7)
-![Screenshot (145)](https://github.com/nourhanHesham77/javaProject/assets/118073597/f4a62469-e171-4c49-8a6d-4fc21edd606c)
+| light                                                                                                                                 | Dark                                |
+| -----------------------------------                                                                                                   | ----------------------------------- |
+| ![Screenshot (145)](https://github.com/nourhanHesham77/javaProject/assets/118073597/f4a62469-e171-4c49-8a6d-4fc21edd606c) | ![Screenshot 2023-06-04 223806](https://github.com/nourhanHesham77/javaProject/assets/118073597/d88b25ae-8363-4f54-84f9-c87b81765b62)|
+
+| light                                                                                                                                 | Dark                                |
+| -----------------------------------                                                                                                   | ----------------------------------- |
+| ![Screenshot 2023-06-04 224834](https://github.com/nourhanHesham77/javaProject/assets/118073597/67976034-d6aa-477f-ba8b-d41a92dd0fd6) | ![Screenshot 2023-06-04 223756](https://github.com/nourhanHesham77/javaProject/assets/118073597/7e67998a-a23a-4db5-95b8-bc4a82e9462c)|
 
 ### Admin Update Question Page
-![Screenshot (146)](https://github.com/nourhanHesham77/javaProject/assets/118073597/22fa0fe7-9258-4ce6-9c44-cb197be93534)
-![Screenshot (147)](https://github.com/nourhanHesham77/javaProject/assets/118073597/8c14f243-34b4-42ba-92d7-478b42b584f0)
-![Screenshot (148)](https://github.com/nourhanHesham77/javaProject/assets/118073597/205c9742-e087-447d-a074-ad8d89cc10b4)
-![Screenshot (149)](https://github.com/nourhanHesham77/javaProject/assets/118073597/1986e44d-5dc3-4b48-a77b-7a0c2d9eb734)
+| light                                                                                                                                 | Dark                                |
+| -----------------------------------                                                                                                   | ----------------------------------- |
+| ![Screenshot (148)](https://github.com/nourhanHesham77/javaProject/assets/118073597/205c9742-e087-447d-a074-ad8d89cc10b4) | ![Screenshot 2023-06-04 224131](https://github.com/nourhanHesham77/javaProject/assets/118073597/f1ae3d89-fe87-448c-a05f-b90447a31bfc)|
+
+### Admin Show Student Results Page
+| light                                                                                                                                 | Dark                                |
+| -----------------------------------                                                                                                   | ----------------------------------- |
+| ![Screenshot 2023-06-04 225210](https://github.com/nourhanHesham77/javaProject/assets/118073597/a8f06900-bda5-46e2-b362-a62ac7637283) | ![Screenshot 2023-06-04 223954](https://github.com/nourhanHesham77/javaProject/assets/118073597/d8b84f7e-64f5-49bf-bfb3-9514e46e44b3)|
+
+
+### Student Chosing Exam Page
+| light                                                                                                                     | Dark                                |
+| -----------------------------------                                                                                       | ----------------------------------- |
+| ![Screenshot (136)](https://github.com/nourhanHesham77/javaProject/assets/118073597/e0d7ef77-5cf5-4008-b1b6-2ff6f36b3816) | ![Screenshot (137)](https://github.com/nourhanHesham77/javaProject/assets/118073597/6d419e61-6a37-461b-a03c-207b12b6d189)|
+
+| light                                                                                                                                 | Dark                                |
+| -----------------------------------                                                                                                   | ----------------------------------- |
+| ![Screenshot 2023-06-04 220935](https://github.com/nourhanHesham77/javaProject/assets/118073597/1e5b6d96-b792-4609-a296-220052e376da) | ![Screenshot 2023-06-04 221002](https://github.com/nourhanHesham77/javaProject/assets/118073597/d4f7e353-057d-4ac0-a04d-6003599b44f3)|
+
+
+
+
+### Student Instrutions Page
+| light                                                                                                                                 | Dark                                |
+| -----------------------------------                                                                                                   | ----------------------------------- |
+| ![Screenshot 2023-06-04 221143](https://github.com/nourhanHesham77/javaProject/assets/118073597/74dce867-bb17-47ab-87df-d340c6f626aa) | ![Screenshot (138)](https://github.com/nourhanHesham77/javaProject/assets/118073597/1e9993d3-2692-4805-bb99-05e026358c31)|
 
 
 ### Student Exam Page
-![Screenshot (139)](https://github.com/nourhanHesham77/javaProject/assets/118073597/6783da91-3dee-4a30-915c-175208c79a4c)
-![Screenshot (140)](https://github.com/nourhanHesham77/javaProject/assets/118073597/cc71ec8a-2d3c-4a58-8540-5bbf8fd4f6ab)
-![Screenshot (141)](https://github.com/nourhanHesham77/javaProject/assets/118073597/aadce9b0-e8c9-41bc-a81a-5d8e23301b3a)
-![Screenshot (142)](https://github.com/nourhanHesham77/javaProject/assets/118073597/2b3cf835-be59-4755-af2e-ad05396a08d6)
-![Screenshot (150)](https://github.com/nourhanHesham77/javaProject/assets/118073597/3e421bda-89f2-4978-ac2c-04b2184eaf5a)
-![Screenshot 2023-05-31 214857](https://github.com/nourhanHesham77/javaProject/assets/118073597/bb4e9b39-87ce-446d-a57d-69a652fbc765)
+| light                                                                                                                                 | Dark                                |
+| -----------------------------------                                                                                                   | ----------------------------------- |
+| ![Screenshot 2023-06-04 222021](https://github.com/nourhanHesham77/javaProject/assets/118073597/952a79c0-8353-4f15-89a9-b5e782379fdd) | ![Screenshot (139)](https://github.com/nourhanHesham77/javaProject/assets/118073597/6783da91-3dee-4a30-915c-175208c79a4c)|
+
+### Student Result Page
+| light                                                                                                                                 | Dark                                |
+| -----------------------------------                                                                                                   | ----------------------------------- |
+| ![Screenshot 2023-06-04 222233](https://github.com/nourhanHesham77/javaProject/assets/118073597/94e34479-90eb-4d9d-ae71-63f7498789ca) | ![Screenshot 2023-06-04 223022](https://github.com/nourhanHesham77/javaProject/assets/118073597/e213b978-2339-452f-97ba-f3732a3e8ce8)|
+
+
+### Student Rank Page
+| light                                                                                                                                 | Dark                                |
+| -----------------------------------                                                                                                   | ----------------------------------- |
+| ![Screenshot 2023-06-04 222502](https://github.com/nourhanHesham77/javaProject/assets/118073597/b9b9995d-2f30-43c9-9fc3-261ad0ac232b) | ![Screenshot 2023-06-04 223031](https://github.com/nourhanHesham77/javaProject/assets/118073597/cd9f18b7-e1ec-4375-82bd-5f019e86a309)|
+
+
+### Student Order Page
+| light                                                                                                                                 | Dark                                |
+| -----------------------------------                                                                                                   | ----------------------------------- |
+| ![Screenshot 2023-06-04 222302](https://github.com/nourhanHesham77/javaProject/assets/118073597/b28216b2-aa8d-4de5-af4f-19ca0ef2dd13) | ![Screenshot 2023-06-04 223057](https://github.com/nourhanHesham77/javaProject/assets/118073597/63107a82-183f-47e7-92b9-7f7bc8537c76)|
+
 
 
 ## Authors
