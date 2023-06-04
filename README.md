@@ -69,19 +69,21 @@ dependencies {
 Note: If you are using a different build tool such as [Maven](poe://www.poe.com/_api/key_phrase?phrase=Maven&prompt=Tell%20me%20more%20about%20Maven.), the [configuration steps](poe://www.poe.com/_api/key_phrase?phrase=configuration%20steps&prompt=Tell%20me%20more%20about%20configuration%20steps.) will be different.
 ```
 
+
 4. Build the project in your IDE to generate the necessary Java class files.
 
 5. Run the project by executing the main class of the project.
 If you are using an IDE, you can typically run the project by right-clicking on the main class and selecting "Run".
 
 6. If the project runs successfully, you should see the JavaFX window appear on your screen.
+  Congratulations, you have successfully installed and run the JavaFX project!
+
 
 Note: If you are using NetBeans and JDK20 Download the FX20 Library and add the path of it to the vm Options
 ```
 EX:
 --module-path "Path to 20 Library" --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics
 ```
-Congratulations, you have successfully installed and run the JavaFX project!
 
 ---
 
