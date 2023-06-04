@@ -94,17 +94,14 @@ In this project there are two sub modules:
 | ![Screenshot 2023-06-04 225210](https://github.com/nourhanHesham77/javaProject/assets/118073597/a8f06900-bda5-46e2-b362-a62ac7637283) | ![Screenshot 2023-06-04 223954](https://github.com/nourhanHesham77/javaProject/assets/118073597/d8b84f7e-64f5-49bf-bfb3-9514e46e44b3)|
 
 
-### Student Chosing Exam Page
+### Student Choosing Exam Page
 | light                                                                                                                     | Dark                                |
 | -----------------------------------                                                                                       | ----------------------------------- |
-| ![Screenshot (136)](https://github.com/nourhanHesham77/javaProject/assets/118073597/e0d7ef77-5cf5-4008-b1b6-2ff6f36b3816) | ![Screenshot (137)](https://github.com/nourhanHesham77/javaProject/assets/118073597/6d419e61-6a37-461b-a03c-207b12b6d189)|
+| ![Screenshot (136)](https://github.com/nourhanHesham77/javaProject/assets/118073597/e0d7ef77-5cf5-4008-b1b6-2ff6f36b3816) | ![Screenshot 2023-06-04 221002](https://github.com/nourhanHesham77/javaProject/assets/118073597/d4f7e353-057d-4ac0-a04d-6003599b44f3)|
 
 | light                                                                                                                                 | Dark                                |
 | -----------------------------------                                                                                                   | ----------------------------------- |
-| ![Screenshot 2023-06-04 220935](https://github.com/nourhanHesham77/javaProject/assets/118073597/1e5b6d96-b792-4609-a296-220052e376da) | ![Screenshot 2023-06-04 221002](https://github.com/nourhanHesham77/javaProject/assets/118073597/d4f7e353-057d-4ac0-a04d-6003599b44f3)|
-
-
-
+| ![Screenshot 2023-06-04 220935](https://github.com/nourhanHesham77/javaProject/assets/118073597/1e5b6d96-b792-4609-a296-220052e376da) | ![Screenshot (137)](https://github.com/nourhanHesham77/javaProject/assets/118073597/6d419e61-6a37-461b-a03c-207b12b6d189)|
 
 ### Student Instrutions Page
 | light                                                                                                                                 | Dark                                |
