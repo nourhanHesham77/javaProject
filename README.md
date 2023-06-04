@@ -6,6 +6,7 @@
 - [Features of the Project](#Features-of-the-Project)
 - [Modules of the Project](#Modules-of-the-Project)
 - [Screenshots](#Screenshots)
+- [Requirements & Installation](#requirements)
 
 ## Purpose of the Project:
 Aim of this project is make easy to conduct exam. Helping teachers to create dynamic exams with no efforts giving them the abilty to modify exams as they like.
