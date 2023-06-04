@@ -6,8 +6,6 @@
 - [Features of the Project](#Features-of-the-Project)
 - [Modules of the Project](#Modules-of-the-Project)
 - [Screenshots](#Screenshots)
-- [Requirements](#Requirements)
-- [Installation](#Installation)
 
 ## Purpose of the Project:
 Aim of this project is make easy to conduct exam. Helping teachers to create dynamic exams with no efforts giving them the abilty to modify exams as they like.
@@ -53,7 +51,8 @@ In this project there are two sub modules:
 
 ---
 ## Requirements
-- Java 8 or JDK 20
+- Java 8 or higher
+- JDK 20
 - JAVAFX
 
 ---
@@ -65,10 +64,17 @@ In this project there are two sub modules:
 dependencies {
     implementation 'org.openjfx:javafx-controls:11.0.2'
 }
-```
-Note: If you are using a different build tool such as [Maven](poe://www.poe.com/_api/key_phrase?phrase=Maven&prompt=Tell%20me%20more%20about%20Maven.), the [configuration steps](poe://www.poe.com/_api/key_phrase?phrase=configuration%20steps&prompt=Tell%20me%20more%20about%20configuration%20steps.) will be different.
-```
-
+````
+Note: If you are using a different build tool such as [Maven] -> the configuration will be different [configuration steps] (
+<dependencies>
+  <dependency>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-controls</artifactId>
+    <version>11.0.2</version>
+  </dependency>
+</dependencies>)
+ you can add the JavaFX dependencies by adding the previous lines to your pom.xml file .
+````
 
 4. Build the project in your IDE to generate the necessary Java class files.
 
@@ -76,16 +82,12 @@ Note: If you are using a different build tool such as [Maven](poe://www.poe.com/
 If you are using an IDE, you can typically run the project by right-clicking on the main class and selecting "Run".
 
 6. If the project runs successfully, you should see the JavaFX window appear on your screen.
-  Congratulations, you have successfully installed and run the JavaFX project!
 
-
-Note: If you are using NetBeans and JDK20 Download the FX20 Library and add the path of it to the vm Options
-```
-EX:
---module-path "Path to 20 Library" --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics
-```
+Congratulations, you have successfully installed and run the JavaFX project!
 
 ---
+
+
 
 
 ## Screenshots
